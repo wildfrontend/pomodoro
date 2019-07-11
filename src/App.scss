@@ -1,3 +1,18 @@
-$white: #ffffff;
-$primary: #ff6d6d;
+.app {
+    height: 100vh;
+    overflow: hidden;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+.nav-logoname {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-orientation: mixed;
+}
