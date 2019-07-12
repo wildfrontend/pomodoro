@@ -22,13 +22,19 @@ function App() {
                 </Box>
                 <Box p={0} width={5 / 12} color='white' bg='white'>
                     <Box p={6} className='todo'>
-                        <ProcessTask />
-                        <CreateTask />
+                        <Box className='todo-process'>
+                            <ProcessTask />
+                        </Box>
+                        <Box className='todo-create'>
+                            <CreateTask />
+                        </Box>
                     </Box>
                 </Box>
-                <Box p={0} width={6 / 12} color='white' bg='grey'>
+                <Box p={6} width={6 / 12} color='white' bg='#ff7575'>
                     <TaskMission />
-                    <TaskClock />
+                    <Box className='clock-area'>
+                        <TaskClock />
+                    </Box>
                 </Box>
             </Flex>
         </ThemeProvider>

@@ -3,7 +3,6 @@
     font-family: 'Microsoft JhengHei';
     font-size: 18px;
     width: 100%;
-    background-color: #ff6d6d;
     color: #ffffff;
 
     .mission-done {
@@ -18,4 +17,10 @@
         float: right;
         text-align: right;
     }
+}
+
+.clock-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
