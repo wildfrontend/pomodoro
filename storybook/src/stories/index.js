@@ -8,6 +8,7 @@ import { Welcome } from '@storybook/react/demo'
 
 import { ProcessTask } from '../components/ProcessTask'
 import { CreateTask } from '../components/CreateTask'
+import { TaskMisson } from '../components/TaskMission'
 
 storiesOf('Welcome', module).add('to Storybook', () => (
     <Welcome showApp={linkTo('Button')} />
@@ -16,3 +17,5 @@ storiesOf('Welcome', module).add('to Storybook', () => (
 storiesOf('Task', module)
     .add('Todolist', () => <ProcessTask />)
     .add('Create Task', () => <CreateTask />)
+
+storiesOf('Task Mission', module).add('TaskMission', () => <TaskMisson />)
