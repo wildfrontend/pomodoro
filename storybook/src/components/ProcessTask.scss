@@ -1,0 +1,54 @@
+.process-task {
+    font-family: 'Microsoft JhengHei';
+    list-style: none;
+    font-size: 18px;
+    li {
+        display: flex;
+    }
+    .node {
+        // 圓形
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        // border: #ff6d6d 2px solid;
+        background-color: #ff6d6d;
+        margin-left: 2.5px;
+    }
+    .doing-now {
+        // 因為比原本的圓還大，為了保持置中，所以用margin-left控制位置
+        // 公式為 width2-width1
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        border: #ff6d6d 2px solid;
+        margin-left: -4.5px;
+
+        text-align: center;
+    }
+    .ralex {
+        //蓋掉預設顏色
+        background-color: #35fbd5 !important;
+    }
+    .ralex-title {
+        color: #35fbd5;
+    }
+    .title {
+        // 行高要圓形直徑一樣
+        line-height: 10px;
+        margin-left: 1rem;
+    }
+
+    .doing-now-title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .divider {
+        width: 1px;
+        height: 40px;
+        background-color: #ff6d6d;
+        // 半徑加1px
+        margin-left: 7px;
+    }
+}

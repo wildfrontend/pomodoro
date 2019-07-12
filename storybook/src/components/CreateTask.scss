@@ -1,0 +1,17 @@
+textarea {
+    font-family: 'Microsoft JhengHei';
+    font-size: 27px;
+    // 關閉延伸textarea
+    resize: none;
+
+    background: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+
+    width: 346px;
+    height: 181px;
+
+    padding: 1rem;
+
+    outline: none;
+}

@@ -1,0 +1,21 @@
+.task-mission {
+    display: inline-block;
+    font-family: 'Microsoft JhengHei';
+    font-size: 18px;
+    width: 100%;
+    background-color: #ff6d6d;
+    color: #ffffff;
+
+    .mission-done {
+        float: left;
+        text-align: left;
+    }
+
+    .content {
+        font-size: 36px;
+    }
+    .mission-time {
+        float: right;
+        text-align: right;
+    }
+}
